@@ -1,0 +1,36 @@
+import time
+import random
+print ("https://www.python.org/")
+#comentario de 1 linea
+"""""
+Comentario 
+de mas de 1
+Linea de 
+Texto
+"""
+# Definición de variables y asignación de valores
+a = int
+b = float
+c = bool
+d = str
+f = bytearray
+a = 15 + 55        # Entero
+b = 0.486 + 898    # Punto flotante
+c = True           # Booleano
+d = "Esto es un string"        # Cadena de texto
+f = bytearray ([211,121,101,112])    
+a1 = "Hello Python"
+#Variable
+a = 0
+#constante
+A = 100
+# Bucle cambiante
+while a < 50:
+    a += random.randrange(1, 25)  # Incrementa Var aleatoriamente
+    a -= random.randrange(1, 10)  # Decrementa Var aleatoriamente
+    print("El valor actual de la variable a es =", a)
+    print ("El valor de la Constante A es =",A)
+    time.sleep(1)  # Espera 1 segundo entre cada impresión
+# Impresión de las variables en una sola línea
+print("Tipos de datos impresos = ", str(a) + ",", str(b) + ",", str(c) + ",", d + ";", list(f))
+print (a1) 
